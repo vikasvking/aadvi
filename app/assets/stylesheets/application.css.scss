@@ -15,3 +15,20 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Kanit|Patua+One|Varela+Round');
+
+body{
+	background-color: #71c55d;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.main{
+	background-color: #fff;
+}
+.navspan{
+	font-family: "Francois", sans-serif;
+}
+nav{
+	background-color: #2a2c30;
+	border-radius: 0px;
+}

@@ -6,18 +6,17 @@
 
     %title Advi
     = csrf_meta_tags
-    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'true'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
-    = stylesheet_link_tag 'application',
-      'https://fonts.googleapis.com/css?family=Open+Sans:400&subset=latin',
-       media: 'all', 'data-turbolinks-track' => true
+    
 
   %body
-    = render 'layouts/partials/nav'
-    %br
-    = render 'layouts/partials/sec'
-    = render 'layouts/partials/sec2'
-    = render 'layouts/partials/team'
-    = render 'layouts/partials/contact'
+    
+    = render 'layouts/partials/nav_boot'
+    .container.container-fluid.main
+      = render 'layouts/partials/sec'
+      = render 'layouts/partials/sec2'      
+      = render 'layouts/partials/contact'
+      = yield
     = render 'layouts/partials/footer'
-    = yield
+      
