@@ -1,0 +1,13 @@
+%section#hero.wow.fadeIn
+  .hero-container
+    %p#notice= notice
+    .panel.panel-default
+      .panel-heading
+        %h1= @blog.title
+      .panel-body{style: 'min-height:50;max-height:80;overflow-y:scroll'}
+        %p
+          = @blog.description
+    .panel-footer
+
+      = link_to 'Edit', edit_blog_path(@blog),class: 'btn btn-primary'
+      = link_to 'Back', blogs_path,class: 'btn btn-primary'

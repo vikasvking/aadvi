@@ -588,7 +588,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #get-started .feature-block {
   background: #fff none repeat scroll 0 0;
-  padding: 30px 20px;
+  padding: 20px 10px;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1310,7 +1310,9 @@ body.mobile-nav-active #mobile-nav-toggle i {
 .footer {
   background: #2a2c30;
   padding-top: 50px;
-  margin: 0px !important;;
+ 
+  width: 100%;
+  
 }
 
 .footer .footer-logo .navbar-brand {

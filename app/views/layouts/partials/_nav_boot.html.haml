@@ -8,8 +8,9 @@
         %span.icon-bar
         %span.icon-bar
       %span.navbar-brand
-        %span.navspan{style: 'color:#fff'} Aadvi
-        %span.navspan{style: 'color:#71c55d'}Digital
+        = link_to root_path do
+          %span.navspan{style: 'color:#fff'} Aadvi
+          %span.navspan{style: 'color:#71c55d'}Digital
       
     / Collect the nav links, forms, and other content for toggling
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
@@ -19,7 +20,7 @@
       
       %ul.nav.navbar-nav.navbar-right
         %li
-          %a{:href => "#"} Link
+          = link_to 'blog',blogs_path
         %li.dropdown
           %a.dropdown-toggle{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "#", :role => "button"}
             Dropdown

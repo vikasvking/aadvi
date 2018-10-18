@@ -1,0 +1,23 @@
+%section#hero.wow.fadeIn
+  .hero-container
+    %h1 Listing blogs
+
+    %table.table
+      %thead
+        %tr
+          %th Title
+          %th Description
+          %th Edit
+          %th Delete
+
+      %tbody
+        - @blogs.each do |blog|
+          %tr
+            %td= blog.title
+            %td= link_to blog.description.truncate_words(3),blog
+            %td= link_to 'Edit', edit_blog_path(blog),class: 'btn btn-primary'
+            %td= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' },class: 'btn btn-danger'
+
+    %br
+
+    = link_to 'New Blog', new_blog_path,class: 'btn btn-primary'
