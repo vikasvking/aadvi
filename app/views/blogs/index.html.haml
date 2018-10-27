@@ -1,23 +1,20 @@
 %section#hero.wow.fadeIn
   .hero-container
-    %h1 Listing blogs
+    %h1 welcome
 
-    %table.table
-      %thead
-        %tr
-          %th Title
-          %th Description
-          %th Edit
-          %th Delete
+    -@blogs.each do |blog|
+      .panel.panel-default
+        .panel-heading
+          %h2= blog.title
+          = blog.created_at.to_date
+        .panel-body
+          = blog.description.truncate_words(blog.description.size%3).html_safe
 
-      %tbody
-        - @blogs.each do |blog|
-          %tr
-            %td= blog.title
-            %td= link_to blog.description.truncate_words(3),blog
-            %td= link_to 'Edit', edit_blog_path(blog),class: 'btn btn-primary'
-            %td= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' },class: 'btn btn-danger'
 
-    %br
+        .panel-footer
+          = link_to 'read more',blog
+
+
+
 
     = link_to 'New Blog', new_blog_path,class: 'btn btn-primary'

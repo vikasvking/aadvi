@@ -1,0 +1,9 @@
+= form_for ([@blog,@blog.comments.build]) do |f|
+
+  .input-group
+    = f.text_area :com, class: 'form-control',placeholder: 'add comment'
+    %span.input-group-btn
+      = f.submit 'add comment',class: 'btn btn-primary',type: 'button'
+
+
+

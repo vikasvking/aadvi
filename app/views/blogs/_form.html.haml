@@ -8,6 +8,6 @@
   .form-group.input-group-lg
     = f.text_field :title,class: 'form-control input-lg',placeholder: 'title'
   .form-group.input-group-lg
-    = f.text_area :description,class: 'form-control',placeholder: 'content',rows: '10',cols: '80'
+    = f.trix_editor :description,class: 'form-control',placeholder: 'content',rows: '10',cols: '80'
   .actions
     = f.submit 'Save' ,class: 'btn btn-primary'

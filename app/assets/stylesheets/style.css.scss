@@ -209,10 +209,11 @@ span {
   top: 0;
   left: 0;
   right: 0;
-  display: flex;
+  overflow: scroll;
+  display: block;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: left;
   text-align: center;
 }
 

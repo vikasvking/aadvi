@@ -6,8 +6,16 @@
         %h1= @blog.title
       .panel-body{style: 'min-height:50;max-height:80;overflow-y:scroll'}
         %p
-          = @blog.description
-    .panel-footer
+          = @blog.description.html_safe
+      .panel-footer
 
       = link_to 'Edit', edit_blog_path(@blog),class: 'btn btn-primary'
       = link_to 'Back', blogs_path,class: 'btn btn-primary'
+    = render 'comments/form'
+    %br
+    .panel.panel-default
+      .panel-body
+      - @blog.comments.each do |i|
+        %p
+          = i.com
+
