@@ -11,7 +11,31 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery
+//= require jquery_ujs
 //= require trix
+//= require owlcarousel2/owl.carousel
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:250,
+        autoplay:true,
+        autoplayTimeout:10000,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    });
+
+});
