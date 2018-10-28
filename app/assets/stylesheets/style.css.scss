@@ -639,6 +639,19 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 /* About Us Section
 --------------------------------*/
+
+#about-us {
+  background: transparent url(asset-path('img/10.jpg')) no-repeat center top fixed;
+  background-size: cover;
+  width: auto;
+}
+
+#about-us .overlay {
+  background: linear-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.2) 95%);
+  height: 100%;
+  width: 100%;
+}
+
 #about-us img {
   max-width: 100%;
 }
@@ -648,10 +661,11 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us .about-content h2 {
-  color: #252525;
-  font-family: "Varela Round";
+  color: #fff;
+  font-family: 'kanit', sans-serif;
   font-size: 39px;
   font-weight: 100;
+  text-shadow: #2a2c30 2px 2px;
   letter-spacing: 2px;
   margin-bottom: 20px;
   text-transform: capitalize;
@@ -663,12 +677,70 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-transform: uppercase;
 }
 
-#about-us .about-content ul li {
+#about-us .about-content p,ul li {
   line-height: 36px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: #2a2c30 1px 1px;
 }
 
 #about-us .about-content ul li .fa {
   padding-right: 20px;
+  color: #fff;
+  font-weight: 200;
+}
+/*---------------------------------*/
+//about us 2
+#about-us2 {
+  background: transparent url(asset-path('img/7.jpg')) no-repeat center top fixed;
+  background-size: cover;
+
+}
+
+#about-us2 .overlay {
+  background: linear-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.2) 95%);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+#about-us2 img {
+  max-width: 100%;
+}
+
+#about-us2 .about-content {
+  padding-top: 60px;
+}
+
+#about-us2 .about-content h2 {
+  color: #fff;
+  font-family: 'kanit', sans-serif;
+  font-size: 39px;
+  font-weight: 100;
+  text-shadow: #2a2c30 2px 2px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+#about-us2 .about-content span {
+  font-weight: 700;
+  padding-right: 10px;
+  color: #fff;
+  text-shadow: #2a2c30 2px 2px;
+  text-transform: uppercase;
+}
+
+#about-us2 .about-content p,ul li {
+  line-height: 36px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: #2a2c30 1px 1px;
+}
+
+#about-us2 .about-content ul li .fa {
+  padding-right: 20px;
+  font-weight: 200;
+  color: #fff;
 }
 
 /* Features Section
@@ -1130,7 +1202,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 /* Newsletter Section
 --------------------------------*/
 #newsletter {
-  background: transparent url(../img/newsletter-bg.jpg) no-repeat center top fixed;
+  background: transparent url(asset-path('newsletter-bg.jpg')) no-repeat center top fixed;
   background-size: cover;
 }
 
@@ -1148,6 +1220,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-size: 11px;
   font-weight: 600;
   height: 50px;
+  margin-left: 50px;
   text-align: center;
   width: 70%;
   background: #fff;
