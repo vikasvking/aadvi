@@ -642,13 +642,13 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #about-us {
   background: transparent url(asset-path('img/10.jpg')) no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   width: auto;
   min-width: 100%;
   min-height: 100%;
-}
-@media (min-width: 768px) {
-  background-attachment: initial;
 }
 
 #about-us .overlay {

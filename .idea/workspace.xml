@@ -88,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="650" column="33" lean-forward="true" selection-start-line="650" selection-start-column="33" selection-end-line="650" selection-end-column="33" />
+            <state relative-caret-position="209">
+              <caret line="652" lean-forward="true" selection-start-line="652" selection-end-line="652" />
             </state>
           </provider>
         </entry>
@@ -170,7 +170,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="538" />
     <option name="y" value="112" />
     <option name="width" value="948" />
@@ -378,15 +378,15 @@
       <workItem from="1540701445268" duration="1170000" />
       <workItem from="1540702663657" duration="3488000" />
       <workItem from="1540707355726" duration="3395000" />
-      <workItem from="1540737361479" duration="8000000" />
+      <workItem from="1540737361479" duration="8257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20889000" />
+    <option name="totallyTimeSpent" value="21146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17246597" />
@@ -597,8 +597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="650" column="33" lean-forward="true" selection-start-line="650" selection-start-column="33" selection-end-line="650" selection-end-column="33" />
+        <state relative-caret-position="209">
+          <caret line="652" lean-forward="true" selection-start-line="652" selection-end-line="652" />
         </state>
       </provider>
     </entry>
