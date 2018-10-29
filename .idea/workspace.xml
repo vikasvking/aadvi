@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c174fb8-9a4e-4ec9-8da3-61ba42e0497d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" afterDir="false" />
-    </list>
+    <list default="true" id="2c174fb8-9a4e-4ec9-8da3-61ba42e0497d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -54,7 +52,7 @@
           <entry key="haml" value="2572" />
           <entry key="js" value="181" />
           <entry key="rb" value="258" />
-          <entry key="scss" value="643" />
+          <entry key="scss" value="650" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -62,7 +60,7 @@
           <entry key="Haml" value="2572" />
           <entry key="JavaScript" value="181" />
           <entry key="Ruby" value="297" />
-          <entry key="SCSS" value="643" />
+          <entry key="SCSS" value="650" />
         </counts>
       </usages-collector>
     </session>
@@ -90,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="198" column="14" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
+            <state relative-caret-position="238">
+              <caret line="208" column="46" lean-forward="true" selection-start-line="208" selection-start-column="46" selection-end-line="208" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -377,16 +375,15 @@
       <workItem from="1540707355726" duration="3395000" />
       <workItem from="1540737361479" duration="9523000" />
       <workItem from="1540785665879" duration="201000" />
-      <workItem from="1540790377456" duration="2433000" />
+      <workItem from="1540790377456" duration="2682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25046000" />
+    <option name="totallyTimeSpent" value="25295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -592,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="198" column="14" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="208" column="46" lean-forward="true" selection-start-line="208" selection-start-column="46" selection-end-line="208" selection-end-column="46" />
         </state>
       </provider>
     </entry>
