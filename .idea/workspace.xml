@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c174fb8-9a4e-4ec9-8da3-61ba42e0497d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/partials/_modellink.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/partials/_sec.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/partials/_sec.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogs/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/partials/_footer.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/partials/_footer.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/partials/_nav_boot.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/partials/_nav_boot.html.haml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -38,35 +40,35 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="4" />
-          <entry key="haml" value="29" />
+          <entry key="haml" value="43" />
           <entry key="js" value="2" />
           <entry key="rb" value="13" />
-          <entry key="scss" value="7" />
+          <entry key="scss" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Haml" value="29" />
+          <entry key="Haml" value="43" />
           <entry key="JavaScript" value="2" />
           <entry key="Ruby" value="17" />
-          <entry key="SCSS" value="7" />
+          <entry key="SCSS" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="39" />
-          <entry key="haml" value="2740" />
+          <entry key="haml" value="2804" />
           <entry key="js" value="181" />
           <entry key="rb" value="258" />
-          <entry key="scss" value="778" />
+          <entry key="scss" value="780" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Haml" value="2740" />
+          <entry key="Haml" value="2804" />
           <entry key="JavaScript" value="181" />
           <entry key="Ruby" value="297" />
-          <entry key="SCSS" value="778" />
+          <entry key="SCSS" value="780" />
         </counts>
       </usages-collector>
     </session>
@@ -74,28 +76,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_aboutus.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="233" column="2" selection-start-line="233" selection-start-column="2" selection-end-line="233" selection-end-column="2" />
+            <state relative-caret-position="248">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_nav_boot.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_sec.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_sec.html.haml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="238">
+              <caret line="751" column="3" selection-start-line="751" selection-start-column="3" selection-end-line="751" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_aboutus2.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -110,19 +121,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_sec2.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="-255">
+              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="105">
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_nav_boot.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -135,9 +164,11 @@
       <find>item</find>
       <find>news</find>
       <find>about</find>
-      <find>abo</find>
       <find>hero</find>
       <find>font-fa</find>
+      <find>font-we</find>
+      <find>foo</find>
+      <find>abo</find>
     </findStrings>
     <replaceStrings>
       <replace>items</replace>
@@ -154,7 +185,6 @@
         <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/blogs/_form.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/blogs/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/comments/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/blogs/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_testimonial.html.haml" />
@@ -163,7 +193,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20181028063616_devise_create_users.rb" />
         <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/_nav_boot.html.haml" />
         <option value="$PROJECT_DIR$/config/initializers/rails_admin.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_news.html.haml" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.haml" />
@@ -172,8 +201,12 @@
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_aboutus.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_sec.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_footer.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_modellink.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_nav_boot.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/blogs/index.html.haml" />
       </list>
     </option>
   </component>
@@ -189,8 +222,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="99" />
-    <option name="y" value="156" />
+    <option name="x" value="198" />
+    <option name="y" value="43" />
     <option name="width" value="948" />
     <option name="height" value="728" />
   </component>
@@ -227,7 +260,14 @@
               <item name="Advi" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Advi" type="b2602c69:ProjectViewProjectNode" />
@@ -235,7 +275,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,18 +406,18 @@
       <workItem from="1540737361479" duration="9523000" />
       <workItem from="1540785665879" duration="201000" />
       <workItem from="1540790377456" duration="2815000" />
-      <workItem from="1540794811819" duration="2927000" />
+      <workItem from="1540794811819" duration="5124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28355000" />
+    <option name="totallyTimeSpent" value="30552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18078668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18078668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -391,7 +430,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31092438" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31092438" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -500,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -517,17 +549,35 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_contact.html.haml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_footer.html.haml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_news.html.haml" />
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_team.html.haml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_news.html.haml" />
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_sec2.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_footer.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="-15">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_modellink.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_nav_boot.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -540,22 +590,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_aboutus.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="248">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_nav_boot.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_sec.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_sec2.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state relative-caret-position="-255">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="751" column="3" selection-start-line="751" selection-start-column="3" selection-end-line="751" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -568,22 +625,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="105">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="233" column="2" selection-start-line="233" selection-start-column="2" selection-end-line="233" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_sec.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>

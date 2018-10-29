@@ -1,20 +1,20 @@
-%section#hero.wow.fadeIn
-  .hero-container
-    %h1 welcome
-
-    -@blogs.each do |blog|
-      .panel.panel-default
-        .panel-heading
-          %h2= blog.title
-          = blog.created_at.to_date
-        .panel-body
-          = blog.description.truncate_words(blog.description.size%3).html_safe
+%section#hero2.wow.fadeIn
+  .hero-container2
+    .row
+      .col-md-3
+      .col-md-6
 
 
-        .panel-footer
-          = link_to 'read more',blog
+        -@blogs.each do |blog|
+          .panel.panel-default
+            .panel-heading
+              %h2= blog.title
+              = blog.created_at.to_date
+            .panel-body
+              = blog.description.truncate_words(blog.description.size%3).html_safe
 
 
-
-
-    = link_to 'New Blog', new_blog_path,class: 'btn btn-primary'
+            .panel-footer
+              = link_to 'read more',blog
+      .col-md-3
+        = link_to 'New Blog', new_blog_path,class: 'btn btn-primary'

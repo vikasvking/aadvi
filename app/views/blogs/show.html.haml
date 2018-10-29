@@ -1,21 +1,27 @@
-%section#hero.wow.fadeIn
-  .hero-container
-    %p#notice= notice
-    .panel.panel-default
-      .panel-heading
-        %h1= @blog.title
-      .panel-body{style: 'min-height:50;max-height:80;overflow-y:scroll'}
-        %p
-          = @blog.description.html_safe
-      .panel-footer
-
-      = link_to 'Edit', edit_blog_path(@blog),class: 'btn btn-primary'
-      = link_to 'Back', blogs_path,class: 'btn btn-primary'
-    = render 'comments/form'
-    %br
-    .panel.panel-default
-      .panel-body
-      - @blog.comments.each do |i|
-        %p
-          = i.com
-
+%section#hero2.wow.fadeIn
+  .hero-container2
+    .row
+      .col-md-3
+      .col-md-6
+        %p#notice= notice
+        .panel.panel-default
+          .panel-heading
+            %h1= @blog.title
+          .panel-body{style: 'min-height:50;max-height:80;overflow-y:scroll'}
+            %p
+              = @blog.description.html_safe
+          .panel-footer
+      .col-md-3
+        = link_to 'Edit', edit_blog_path(@blog),class: 'btn btn-primary'
+        = link_to 'Back', blogs_path,class: 'btn btn-primary'
+    .row
+      .col-md-3
+      .col-md-6
+        = render 'comments/form'
+        %br
+        .panel.panel-default
+          .panel-body
+          - @blog.comments.each do |i|
+            %p
+              = i.com
+      .col-md-3
