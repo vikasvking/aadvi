@@ -196,7 +196,7 @@ span {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  z-index: -10;
+
   min-width: 100%;
 
   min-height: 100%;
@@ -204,10 +204,12 @@ span {
 
 }
 
-@media (min-width: 720px) {
-  #hero {
-    background-attachment: fixed;
+@media screen and (min-width:768px) {
+  body{
+    background-image: url("newsletter-bg.jpg");
+    background-size: cover;
   }
+}
 }
 
 #hero .hero-container {
