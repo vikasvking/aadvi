@@ -23,7 +23,11 @@
 body{
 
 	font-family: 'Source Sans Pro', sans-serif;
+   display: block;
+}
+nav,section{
   display: block;
+  position: relative;
 }
 .main{
 	background-color: #fff;

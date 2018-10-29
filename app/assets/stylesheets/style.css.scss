@@ -185,20 +185,20 @@ span {
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 #hero {
+   width: 100%;
+   height: calc(100vh - 40px);
+   background: url("hero-bg.png") center bottom no-repeat;
+   background-size: 100%;
+   position: relative;
+   margin-top: 40px;
+ }
 
-  background: url("newsletter-bg.jpg") no-repeat ;
-  background-position: center center;
-  background-size: cover;
-
-
-
+@media (min-width: 1025px) {
+  #hero {
+    background-attachment: fixed;
+  }
 }
-
-
 
 #hero .hero-container {
   position: absolute;
@@ -206,25 +206,11 @@ span {
   top: 0;
   left: 0;
   right: 0;
-  overflow: scroll;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: left;
+  flex-direction: column;
   text-align: center;
-}
-#hero .hero-container2 {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
-  text-align: center;
-
 }
 
 #hero h1 {
@@ -232,9 +218,6 @@ span {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  text-align: center;
-  vertical-align: middle;
-  text-shadow: #2a2c30 1px 1px;
   font-family: "Philosopher", sans-serif;
   color: #71c55d;
 }
@@ -250,7 +233,7 @@ span {
   color: #777;
   margin-bottom: 30px;
   font-size: 20px;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
@@ -268,7 +251,7 @@ span {
 }
 
 #hero .btn-get-started {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 13px;
@@ -308,7 +291,6 @@ span {
 #hero .btns a:hover {
   color: #71c55d;
 }
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
