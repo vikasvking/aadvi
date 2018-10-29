@@ -193,11 +193,19 @@ span {
   height: calc(100vh - 40px);
   background: url("newsletter-bg.jpg") no-repeat center;
   background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+
+  min-width: 100%;
+
+  min-height: 100%;
   position: relative;
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 720px) {
   #hero {
     background-attachment: fixed;
   }
