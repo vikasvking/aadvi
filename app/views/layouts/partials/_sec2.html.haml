@@ -20,6 +20,22 @@
           %li promotion
           %li awareness
           %li marketing collateral
+          / Button trigger modal
+          %button.btn.btn-primary.btn-sm{"data-target" => "#myModalOffline", "data-toggle" => "modal", :type => "button"}
+            Know More
+          / Modal
+          #myModalOffline.modal.fade{"aria-labelledby" => "myModalLabel", :role => "dialog", :tabindex => "-1"}
+            .modal-dialog.modal-lg{:role => "document"}
+              .modal-content
+                .modal-header
+                  %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+                    %span{"aria-hidden" => "true"} ×
+                  %h4#myModalLabelOffline.modal-title  Offline Marketing
+                .modal-body
+                  = image_tag("img/5.jpg",class:'img-responsive')
+
+
+
 
       .col-md-4.col-lg-4
         .feature-block
@@ -28,13 +44,45 @@
           %li social media marketing
           %li Google AdWords
           %li SEO
-          %a{:href => "#"} read more
+          / Button trigger modal
+          %button.btn.btn-primary.btn-sm{"data-target" => "#myModalOnline", "data-toggle" => "modal", :type => "button"}
+            Know More
+          / Modal
+          #myModalOnline.modal.fade{"aria-labelledby" => "myModalLabel", :role => "dialog", :tabindex => "-1"}
+            .modal-dialog.modal-lg{:role => "document"}
+              .modal-content
+                .modal-header
+                  %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+                    %span{"aria-hidden" => "true"} ×
+                  %h4#myModalLabelOnline.modal-title Online Marketing
+                .modal-body
+
+                  = image_tag("img/10.jpg",class:'img-responsive')
+
+
+
       .col-md-4.col-lg-4
         .feature-block
           = image_tag("svg/asteroid.svg",class: 'img-fluid') 
           %h4 Design
           %li
-            Responsive Single Page Website Design– Create stunning and beautiful 
-          %a{:href => "#"} read more
-  #overlay
+            Responsive Single Page Website
+            %br
+            Design– Create stunning and beautiful
+          / Button trigger modal
+          %button.btn.btn-primary.btn-sm{"data-target" => "#myModalDesing", "data-toggle" => "modal", :type => "button"}
+            Know More
+          / Modal
+          #myModalDesing.modal.fade{"aria-labelledby" => "myModalLabel", :role => "dialog", :tabindex => "-1"}
+            .modal-dialog.modal-lg{:role => "document"}
+              .modal-content
+                .modal-header
+                  %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+                    %span{"aria-hidden" => "true"} ×
+                  %h4#myModalLabelDesign.modal-title Design
+                .modal-body
+                  = image_tag("img/2.jpg",class:'img-responsive')
+
+
+
       
