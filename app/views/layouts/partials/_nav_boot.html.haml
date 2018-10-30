@@ -21,23 +21,15 @@
       %ul.nav.navbar-nav.navbar-right
         %li
           = link_to 'blog',blogs_path
-        %li.dropdown
-          %a.dropdown-toggle{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "#", :role => "button"}
-            Login
-            %span.caret
-          %ul.dropdown-menu
-            - if user_signed_in?
-              %li
-                hii
-                = current_user.email
-              %li
-                = link_to 'Logout',destroy_user_session_path,method: :delete
-
-
-            - else
-              %li
-                = link_to 'login',new_user_session_path
-              %li
-                = link_to 'sign up',new_user_registration_path
+        - if user_signed_in?
+          %li
+            = user.email
+          %li
+            = link_to 'Logout',destroy_user_session_path,method: :delete,class: 'nostyle'
+        - else
+          %li
+            = link_to 'Log in',new_user_session_path
+          %li
+            = link_to 'Sign in',new_user_registration_path
     / /.navbar-collapse
   / /.container-fluid
