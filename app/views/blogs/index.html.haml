@@ -1,17 +1,18 @@
 %section#hero2.wow.fadeIn
   .hero-container2
-    .row.login
-      .col-md-3
-      .col-md-6
-        -@blogs.each do |blog|
-          .panel.panel-default
-            .panel-heading
-              %h2= blog.title
-              = blog.created_at.to_date
-            .panel-body
-              = blog.description.truncate_words(blog.description.size%3).html_safe
-            .panel-footer
-              = link_to 'read more',blog
-      .col-md-3
-        - if user_signed_in? && current_user.admin?
-          = link_to 'New Blog', new_blog_path,class: 'btn btn-primary'
+    .container
+      .row.login
+        .col-md-9
+          - @blogs.each_slice(3) do |i|
+            .row
+              - i.each do |j|
+                .col-md-3
+                  .panel.panel-default
+                    .panel-heading
+                      = j.title
+                    .panel-body
+                      = j.description.html_safe
+          
+        .col-md-3
+          = link_to 'New BLog',new_blog_path
+          

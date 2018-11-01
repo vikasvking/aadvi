@@ -35,9 +35,10 @@ nav,section{
 .navspan{
 	font-family: "Francois", sans-serif;
 }
-nav{
+.navbar{
 	background-color: #2a2c30;
 	border-radius: 0px;
+  border: 0px;
 }
 #overlay {
     position: fixed; /* Sit on top of the page content */
@@ -58,7 +59,7 @@ nav{
 .nostyle:hover{
   text-decoration: none;
 }
-.login{
-  
+.login{  
   height: 450px;
+  overflow: auto;
 }
