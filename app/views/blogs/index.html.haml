@@ -1,10 +1,8 @@
 %section#hero2.wow.fadeIn
   .hero-container2
-    .row
+    .row.login
       .col-md-3
       .col-md-6
-
-
         -@blogs.each do |blog|
           .panel.panel-default
             .panel-heading
@@ -12,9 +10,8 @@
               = blog.created_at.to_date
             .panel-body
               = blog.description.truncate_words(blog.description.size%3).html_safe
-
-
             .panel-footer
               = link_to 'read more',blog
       .col-md-3
-        = link_to 'New Blog', new_blog_path,class: 'btn btn-primary'
+        - if user_signed_in? && current_user.admin?
+          = link_to 'New Blog', new_blog_path,class: 'btn btn-primary'

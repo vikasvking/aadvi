@@ -23,7 +23,7 @@
           = link_to 'blog',blogs_path
         - if user_signed_in?
           %li
-            = user.email
+            = link_to current_user.email
           %li
             = link_to 'Logout',destroy_user_session_path,method: :delete,class: 'nostyle'
         - else
